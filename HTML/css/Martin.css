@@ -1,0 +1,199 @@
+body {
+	font-family: "Courier New", Times, serif;
+	background-image: url("https://www.publicdomainpictures.net/pictures/30000/nahled/beach-background.jpg") ;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	overflow: auto;
+}
+html{
+	height: 100%;
+
+}
+
+.TEST {
+	font-family: "Courier New", Times, serif;
+	color: #ff6699;
+	text-align: center;
+	text-decoration: underline;
+}
+
+/* h3 {
+	font-family: "Courier New", Times, serif;
+	color: pink;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+	text-align: center;
+}
+*/
+
+#SKOLAN {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+iframe {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+
+.grid-container {
+	display: grid;
+	grid-row-gap: 50px;
+	grid-column-gap: 50px
+}
+
+.header {
+	background-color: #99ccff;
+	position: static;
+}
+
+.PIC-left{
+
+}
+
+.left, .right, .middle {
+	display: grid;
+	float: left;
+	width: 33.33%;
+	grid-row-gap: 20px;
+	grid-column-gap: 20px;
+}
+
+
+.in-header {
+	text-align: center;
+	background-color: white;
+	font-size: 20px;
+}
+@media screen and (max-width: 700px) {
+	.left, .right, .middle {
+		color: green;
+	}
+}
+
+.in-pic {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+	height: 150px;
+	background-color: white;
+	outline-style: outset;
+	outline-color: lightblue;
+	outline-width: 10px;
+}
+
+.FiskText {
+	background-color: white;
+	outline-style: ridge;
+	outline-color: grey;
+	outline-width: 10px;
+}
+
+.column1, .column2, .column3  {
+	display: grid;
+	grid-template-columns:repeat(3, 1fr);
+	grid-auto-rows: 50px;
+	float: left;
+	width: 33.3%;
+	grid-column-gap: 100px;
+}
+
+.row {
+ text-align: center;
+}
+
+.nav {
+ display: grid;
+ float: left;
+}
+
+.column1 {
+	font-family: "Courier New", Times, serif;
+	background-color: #6666ff;
+	outline-style: outset;
+	outline-color: #3333cc;
+}
+
+.column3 {
+	font-family: "Courier New", Times, serif;
+	background-color: #33ccff;
+	outline-style: outset;
+	outline-color: #0099ff;
+}
+
+.column2 {
+	font-family: "Courier New", Times, serif;
+	background-color: #6699ff;
+	outline-style: outset;
+	outline-color: #3366ff
+}
+
+.Pröjsa {
+	text-align: center;
+	color: white;
+	background-color: #006699;
+	border-color: #003366;
+	border-width: 10px;
+	border-radius: 50px;
+	border-style: outset;
+}
+
+.column1, .column2, .column3  {
+	display: grid;
+	grid-template-columns:repeat(3, 1fr);
+	grid-auto-rows: 50px;
+	float: right;
+	width: 25%;
+	grid-column-gap: 100px;
+}
+
+.row {
+ text-align: center;
+}
+
+.nav {
+ display: grid;
+ float: left;
+}
+
+.column1 {
+	font-family: "Courier New", Times, serif;
+	background-color: #6666ff;
+	outline-style: outset;
+	outline-color: #3333cc;
+}
+
+.column3 {
+	font-family: "Courier New", Times, serif;
+	background-color: #33ccff;
+	outline-style: outset;
+	outline-color: #0099ff;
+}
+
+.column2 {
+	font-family: "Courier New", Times, serif;
+	background-color: #6699ff;
+	outline-style: outset;
+	outline-color: #3366ff
+}
+
+.Pröjsa {
+	text-align: center;
+	color: white;
+	background-color: #006699;
+	border-color: #003366;
+	border-width: 10px;
+	border-radius: 50px;
+	border-style: outset;
+	text-shadow: 4px 4px black;
+}
+
+.Pröjsa:hover{
+	transform: scale(1.1);
+}
