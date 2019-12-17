@@ -12,6 +12,17 @@ html{
 
 }
 
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td {
+	align: center;
+	width: 33.3vw;
+	height: 200px;
+}
+
 .TEST {
 	font-family: "Courier New", Times, serif;
 	color: #ff6699;
@@ -57,13 +68,13 @@ iframe {
 
 }
 
-.left, .right, .middle {
+/*.left, .right, .middle {
 	display: grid;
 	float: left;
 	width: 33.33%;
 	grid-row-gap: 20px;
 	grid-column-gap: 20px;
-}
+}*/
 
 
 .in-header {
@@ -144,14 +155,7 @@ iframe {
 	border-style: outset;
 }
 
-.column1, .column2, .column3  {
-	display: grid;
-	grid-template-columns:repeat(3, 1fr);
-	grid-auto-rows: 50px;
-	float: right;
-	width: 25%;
-	grid-column-gap: 100px;
-}
+
 
 .row {
  text-align: center;
@@ -184,6 +188,8 @@ iframe {
 }
 
 .Pröjsa {
+margin-left: 25%;
+
 	text-align: center;
 	color: white;
 	background-color: #006699;
