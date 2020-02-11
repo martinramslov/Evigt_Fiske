@@ -107,9 +107,9 @@ td {
 }
 
 .FiskText {
-	background-color: #6699ff;
+	background-color: white;
 	outline-style: solid;
-	outline-color: #6666ff;;
+	outline-color: Black;
 	outline-width: 5px;
 }
 
@@ -121,24 +121,15 @@ td {
 	border-width: 10px;
 	border-radius: 50px;
 	border-style: outset;
-}
-
-
-
-.Pröjsa {
-	margin-left: 25%;
-	text-align: center;
-	color: white;
-	background-color: #006699;
-	border-color: #003366;
-	border-width: 10px;
-	border-radius: 50px;
-	border-style: outset;
-	text-shadow: 4px 4px black;
+	left: 50%;
+	transform: translate(-50%, 0);
+	position: relative;
 }
 
 .Pröjsa:hover{
-	transform: scale(1.1);
+
+	border-color: #00284f;
+	background-color: #00537d;
 }
 
 .sec1, .sec2, .sec3  {
@@ -173,3 +164,23 @@ td {
 	input[type=submit]:hover {
 	  background-color: #45a049;
 	}
+
+.Salmone {
+	margin-top: 30px;
+	background-color: white;
+	outline-style: outset;
+	outline-color: lightblue;
+	outline-width: 10px;
+}
+
+.Tack{
+	float: right;
+	margin-right: 40%;
+	margin-top: 100px;
+	border-radius: 10px;
+	border-color: black;
+	border-top-style: solid;
+	background-color: white;
+	border-width: thick;
+
+}
