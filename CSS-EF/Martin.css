@@ -1,3 +1,5 @@
+/*Grundläggande struktur till hemsida som definerar layout*/
+
 body {
 	font-family: "Courier New", Times, serif;
 	background-image: url("https://www.publicdomainpictures.net/pictures/30000/nahled/beach-background.jpg") ;
@@ -5,19 +7,7 @@ body {
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
-	overflow: auto;
-}
-.Port{
-
-	text-align: center;
-	color: darkblue;
-	background-color: lightblue;
-	border-color: darkblue;
-	border-width: 10px;
-	border-radius: 25px;
-	padding: 20px;
-	border-style: outset;
-}
+	overflow: auto; }
 html{
 	height: 100%;
 
@@ -38,6 +28,17 @@ td {
 	width: 33.3vw;
 	height: 200px;
 }
+.Port{
+
+	text-align: center;
+	color: darkblue;
+	background-color: lightblue;
+	border-color: darkblue;
+	border-width: 10px;
+	border-radius: 25px;
+	padding: 20px;
+	border-style: outset;
+}
 
 .top {
 	text-align: center;
@@ -48,7 +49,7 @@ td {
 	border-radius: 50px;
 	border-style: outset;
 }
-
+/* Titel given i id då nav funktionen ska ge aktivitet*/
 #Titel {
 	font-family: "Courier New", Times, serif;
 	color: darkblue;
@@ -65,19 +66,7 @@ td {
 	position: static;
 }
 
-.PIC-left{
-
-}
-
-/*.left, .right, .middle {
-	display: grid;
-	float: left;
-	width: 33.33%;
-	grid-row-gap: 20px;
-	grid-column-gap: 20px;
-}*/
-
-
+/*påbörjad kod till media om grid skulle vara relevant*/
 .in-header {
 	text-align: center;
 	background-color: white;
@@ -91,7 +80,7 @@ td {
 		color: green;
 	}
 }
-
+/*style till information till respektive fisk*/
 .in-pic {
 	position: relative;
 	left: 50%;
@@ -109,7 +98,7 @@ td {
 	outline-color: Black;
 	outline-width: 5px;
 }
-
+/*Betalningskanppen samt hover funktion*/
 .Pröjsa {
 	text-align: center;
 	color: white;
@@ -129,6 +118,7 @@ td {
 	background-color: #00537d;
 }
 
+/*beskriver sektioner till påbörjad grid funktion*/
 .sec1, .sec2, .sec3  {
 	display: grid;
 	grid-template-columns:repeat(3, 1fr);
