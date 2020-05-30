@@ -7,10 +7,26 @@ body {
 	background-attachment: fixed;
 	overflow: auto;
 }
+#Port1, #Port2{
+
+	text-align: center;
+	color: darkblue;
+	background-color: lightblue;
+	border-color: darkblue;
+	border-width: 10px;
+	border-radius: 25px;
+	padding: 20px;
+	border-style: outset;
+}
 html{
 	height: 100%;
 
 }
+h1	{
+	font-size: 40px;
+}
+	h3 {
+		font-size: 36px;}
 
 table {
 	margin-left: auto;
@@ -42,25 +58,6 @@ td {
 	outline-style: outset;
 	outline-color: #003399;
 	background-color: lightblue;
-
-}
-
-/* h3 {
-	font-family: "Courier New", Times, serif;
-	color: pink;
-	position: relative;
-	left: 50%;
-	transform: translate(-50%, 0);
-	text-align: center;
-}
-*/
-
-
-
-/*.grid-container {
-	display: grid;
-	grid-row-gap: 50px;
-	grid-column-gap: 50px*/
 }
 
 .header {
