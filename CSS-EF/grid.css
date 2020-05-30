@@ -7,6 +7,13 @@
   width: 98vw;
 }
 
+@media only screen and (max-widht:600px) {
+  .itemlist {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, auto);
+  }
+}
+
 
 .column1, .column2, .column3  {
 	display: grid;
