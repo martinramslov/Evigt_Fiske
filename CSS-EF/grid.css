@@ -25,7 +25,7 @@
 }
 
 .column1:hover, .column2:hover, .column3:hover, #botten:hover, #top:hover{
-	background-color: white;
+background-color: white;
   color: white;
   border-bottom-color: white;
   text-align: center;
